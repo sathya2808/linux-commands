@@ -1,0 +1,12 @@
+Linux commands 
+ To create user :
+ cmd: useradd username
+ To set password to the user
+ cmd: passwd username
+ To create group 
+ cmd: groupadd groupname
+ To add user in group
+ cmd: usermod -a -G groupname user
+ To check user in group
+ cmd: grep groupname /etc/group
+ 
